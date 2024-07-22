@@ -1,0 +1,61 @@
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: crimson;
+    border: 2px solid goldenrod;
+    margin: 10px;
+}
+
+div:nth-of-type(2n) {
+    background-color: coral;
+}
+
+div:nth-last-of-type(3n){
+    background-color: darkgray;
+}
+
+/* transform */
+#one:hover {
+    transform: rotate(45deg);
+}
+#two:hover {
+    transform: scale(0.5);
+}
+
+#three:hover {
+   transform: translate(100px, 100px);
+   transform: translateX(200px)
+}
+
+#four:hover {
+    transform: skew(10deg);
+}
+
+/* #five:hover {
+    transform: rotate(45deg) translate(100px, 200px);
+} */
+
+#boxshadow {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    /* border: 2px solid goldenrod; */
+    margin: 10px;
+    box-shadow: 2px 2px 10px blue;
+}
+#backgroungimg {
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    background-color: aquamarine;
+    background-image: url(dog.jpg);
+    background-size: contain;
+    font-weight: bolder;   
+
+}
