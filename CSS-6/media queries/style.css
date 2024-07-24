@@ -1,0 +1,18 @@
+h1 {
+    background-color: yellow;
+    color: red;
+}
+
+@media (width : 400px) {
+    h1 {
+        background-color: red;
+        color: yellowgreen;
+    }
+}
+
+@media (min-width : 400px){
+    h1 {
+        background-color: brown;
+        color: white;
+    }
+}
