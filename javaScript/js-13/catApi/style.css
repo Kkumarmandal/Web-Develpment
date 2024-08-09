@@ -1,0 +1,19 @@
+body {
+    background-color: pink;
+}
+
+.p {
+    color: red;
+}
+
+button {
+    background-color: rgb(105, 15, 170);
+    color: rgb(9, 224, 52);
+}
+
+h1 {
+    color: rebeccapurple;
+}
+h2 {
+    color: rgb(179, 36, 182);
+}
